@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Make sure that the SESSION_MANAGER environment variable is not set.
+unset SESSION_MANAGER
+
+unset DBUS_SESSION_BUS_ADDRESS
+# Launch KDE in the foreground.
+startplasma-x11
